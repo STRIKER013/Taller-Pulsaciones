@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Pulsaciones</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="registro.js"></script>
+</head>
+
+<body id="cuerpo">
+
+    <header>
+        <h1>REGISTRO PULSACIONES</h1>
+    </header>
+
+    <nav>
+        <div class="btn-group">
+            <button class="button" onclick="window.location.href='../index.html';">INICIO</button>
+            <button class="button" onclick="window.location.href='./registro.html';">REGISTRO</button>
+            <button class="button" onclick="window.location.href='../consulta/consulta.html';">CONSULTA</button>
+        </div>
+    </nav>
+
+    <section>
+        <article id="registro">
+            <form>
+                <div id="imgPulsaciones">
+                    <img src="../imagenes/imgPulsaciones.jpg" alt="Pulso" width="35%">
+                </div>
+                <ul>
+                    <label>Sexo:</label>
+
+                    <select name="" id="operacionSeleccionada">
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                    </select>
+                </ul>
+                <ul>
+                    <label>Edad:</label>
+                    <input id="edad" type="number" />
+                </ul>
+                <ul>
+                     
+                    <label>Identificación:</label>
+                    <input id="identificacion" type="number" />   
+                </ul>   
+                <ul>
+                    
+                
+                    <label>Pulsaciones:</label>
+                    <input id="resultado" type="number" />
+                </ul>
+                <ul>
+                    <button class="button button2" onclick="guardar()">Calcular</button>
+                </ul>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <a href="">FACEBOOK</a>
+        <br>
+        <p>PAGINA POR: OMAR PARRA</p>
+    </footer>
+
+</body>
+
+</html>
